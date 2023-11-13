@@ -1,9 +1,9 @@
 import axios from 'axios';
+const URL = 'https://api.themoviedb.org/3/';
 const API_KEY = '129ca5a87012be791cb78f7f53b5aff0';
 const BASE_URL = 'https://api.themoviedb.org/3/trending/all/day';
 const URL_GENRES = 'https://api.themoviedb.org/3/genre/movie/list';
 const URL_CAST = 'https://api.themoviedb.org/3/movie/';
-const URL = 'https://api.themoviedb.org/3/';
 
 export default async function fetchTrending() {
   const config = {
