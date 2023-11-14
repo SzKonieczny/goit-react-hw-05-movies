@@ -22,7 +22,7 @@ export const HomeList = ({ trendFilms }) => {
                     }
                     alt="Poster film"
                     title={original_name || original_title}
-                    width="230"
+                    width="240"
                   />
                   <FilmName>{original_name || original_title}</FilmName>
                 </Link>
