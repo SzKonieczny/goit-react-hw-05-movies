@@ -17,7 +17,7 @@ const Movies = lazy(() =>
   }))
 );
 const MovieDetails = lazy(() =>
-  import('../pages/movieDetail/MovieDetails').then(module => ({
+  import('../pages/movieDetails/MovieDetails').then(module => ({
     ...module,
     default: module.MovieDetails,
   }))
@@ -26,7 +26,7 @@ const Cast = lazy(() =>
   import('./cast/Cast').then(module => ({ ...module, default: module.Cast }))
 );
 const Reviews = lazy(() =>
-  import('./review/Review').then(module => ({
+  import('./reviews/Reviews').then(module => ({
     ...module,
     default: module.Reviews,
   }))
