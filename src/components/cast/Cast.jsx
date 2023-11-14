@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchCast } from 'apiTools/Api';
+import { fetchCast } from 'components/apiTools/Api';
 import { ActorCards, MainActor } from './cast.styled';
 
 export const Cast = () => {
